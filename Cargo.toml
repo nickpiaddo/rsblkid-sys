@@ -1,0 +1,24 @@
+[package]
+name = "rsblkid-sys"
+description = "Raw FFI bindings to the `util-linux/libblkid` C library"
+version = "0.1.0"
+authors = ["Nick Piaddo <nick.piaddo@protonmail.com>"]
+license = "Apache-2.0 OR MIT"
+rust-version = "1.72"
+edition = "2021"
+repository = "https://github.com/nickpiaddo/rsblkid-sys"
+homepage = "https://github.com/nickpiaddo/rsblkid-sys"
+documentation = "https://docs.rs/rsblkid-sys"
+readme = "README.md"
+keywords = ["bindings", "ffi"]
+categories = ["external-ffi-bindings", "os"]
+links = "blkid"
+exclude = ["web-snapshots/*"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[build-dependencies]
+bindgen = "0.66.1"
+pkg-config = "0.3.30"
