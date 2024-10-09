@@ -12,8 +12,9 @@ documentation = "https://docs.rs/rsblkid-sys"
 readme = "README.md"
 keywords = ["bindings", "ffi"]
 categories = ["external-ffi-bindings", "os"]
-links = "blkid"
 exclude = ["web-snapshots/*"]
+build = "build/build.rs"
+links = "blkid"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
@@ -21,4 +22,5 @@ exclude = ["web-snapshots/*"]
 
 [build-dependencies]
 bindgen = "0.66.1"
+cc = "1.1.28"
 pkg-config = "0.3.30"
