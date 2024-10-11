@@ -47,7 +47,7 @@ apk add util-linux-dev clang-libclang pkgconfig
 ### Ubuntu
 
 ```console
-sudo apt-get install libblkid-dev libclang-dev librust-pkg-config-dev
+sudo apt-get install libblkid-dev libclang-dev pkg-config
 ```
 
 ## License
